@@ -1,0 +1,101 @@
+.myBtn {
+  width: 100px;
+  border-radius: 12px;
+  height: 42px;
+}
+.clearBtn {
+  margin-left: 44%;
+}
+.myInput {
+  height: 45px;
+  border-radius: 28px;
+}
+@media (min-width: 992px) {
+  .in {
+    margin-left: 29%;
+  }
+  .myInput {
+    width: 100%;
+  }
+  .head {
+    margin-left: 36%;
+    margin-top: 60px;
+  }
+}
+@media (min-width: 934px) and (max-width: 992px) {
+  .in {
+    margin-left: 17%;
+  }
+  .myInput {
+    width: 105%;
+  }
+  .head {
+    margin-left: 34%;
+    margin-top: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 934px) {
+  .in {
+    margin-left: 17%;
+  }
+  .myInput {
+    width: 104%;
+  }
+  .head {
+    margin-left: 34%;
+    margin-top: 60px;
+  }
+  .item {
+    margin-left: -14%;
+  }
+}
+
+@media (min-width: 584px) and (max-width: 768px) {
+  .in {
+    margin-left: 15%;
+  }
+  .myInput {
+    width: 107%;
+  }
+  .head {
+    margin-left: 34%;
+    margin-top: 60px;
+  }
+  .item {
+    margin-left: -14%;
+  }
+}
+
+@media (max-width: 584px) {
+  .in {
+    margin-left: 10%;
+  }
+  .myInput {
+    width: 290px;
+  }
+  .head {
+    margin-left: 20%;
+    margin-top: 60px;
+  }
+  .item {
+    margin-left: -14%;
+  }
+}
+
+body {
+  background-image: url(https://media.gettyimages.com/vectors/abstract-design-with-geometric-shapes-trendy-purple-gradient-vector-id1185640438?s=2048x2048);
+}
+.task {
+  font-size: 20px;
+  color: purple;
+}
+.it {
+  border-bottom: 1.5px solid black;
+}
+a {
+  color: red;
+}
+
+.cl {
+  background-color: red;
+}
